@@ -6,7 +6,6 @@ import Citizens from './pages/Citizens';
 import Students from './pages/Students';
 import Lawyers from './pages/Lawyers';
 import Media from './pages/Media';
-import './App.css';
 
 function App() {
   return (
