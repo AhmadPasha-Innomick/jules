@@ -1,0 +1,1031 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./customfont.eot");
+  src:
+    url("./customfont.eot?#iefix") format("embedded-opentype"),
+    url("./customfont.woff2") format("woff2"),
+    url("./customfont.woff") format("woff"),
+    url("./customfont.ttf") format("truetype"),
+    url("./customfont.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./customfont.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before {
+  content: attr(data-icon);
+}
+
+[data-icon]:before,
+.icon-Accessories:before,
+.icon-Account:before,
+.icon-Add:before,
+.icon-Add-Money:before,
+.icon-Addon:before,
+.icon-Alert:before,
+.icon-Arrow-curser:before,
+.icon-Arrow_down:before,
+.icon-Arrow_left:before,
+.icon-Arrow_right:before,
+.icon-Arrow_up:before,
+.icon-Attatchment:before,
+.icon-Barcode:before,
+.icon-Bars:before,
+.icon-Battery:before,
+.icon-Bell:before,
+.icon-Bell-Not-Empty:before,
+.icon-Business:before,
+.icon-Cab:before,
+.icon-Calendar:before,
+.icon-Calls:before,
+.icon-Calls-in:before,
+.icon-Calls-out:before,
+.icon-Camera:before,
+.icon-Camera-zoom:before,
+.icon-Cancel:before,
+.icon-Cancel----circle:before,
+.icon-Cart:before,
+.icon-Cash:before,
+.icon-Chat:before,
+.icon-Check:before,
+.icon-Clock:before,
+.icon-Coffee:before,
+.icon-Credit-Card:before,
+.icon-Credit-Card-Add:before,
+.icon-Credit-Card-no-balance:before,
+.icon-Delivery-van:before,
+.icon-Device-Protect:before,
+.icon-Disabled:before,
+.icon-Discount:before,
+.icon-Discover_Connected_Life:before,
+.icon-Discover_Devices:before,
+.icon-Discover_Digital_Gift_Cards:before,
+.icon-Discover_Entertainment:before,
+.icon-Discover_Gametheon:before,
+.icon-Discover_Lock:before,
+.icon-Discover_Mobile_Payment:before,
+.icon-Discover_Promotions:before,
+.icon-Discover_Protect:before,
+.icon-Discover_Roaming:before,
+.icon-Discover_SCB:before,
+.icon-Discover_Services:before,
+.icon-Discover_TV_Icon:before,
+.icon-Document:before,
+.icon-Document-Paid:before,
+.icon-Document-dot:before,
+.icon-Donate:before,
+.icon-Down:before,
+.icon-Download:before,
+.icon-Download-speed:before,
+.icon-Edit:before,
+.icon-Edit-plan:before,
+.icon-Education:before,
+.icon-External-link:before,
+.icon-Extreme-Sports:before,
+.icon-Facebook:before,
+.icon-Family:before,
+.icon-Fashion:before,
+.icon-Favorite_Addons:before,
+.icon-Filter:before,
+.icon-Folder:before,
+.icon-Friends:before,
+.icon-Fullscreen:before,
+.icon-Furniture:before,
+.icon-Game:before,
+.icon-Gift_cards:before,
+.icon-Globe:before,
+.icon-Guest:before,
+.icon-Hamburger:before,
+.icon-Happy:before,
+.icon-Health:before,
+.icon-Heart:before,
+.icon-Heart_filled:before,
+.icon-Help:before,
+.icon-History:before,
+.icon-Home:before,
+.icon-Home-selected:before,
+.icon-Home-wifi:before,
+.icon-ID:before,
+.icon-Inbox:before,
+.icon-Infinite_Unlimited_Icon:before,
+.icon-Information:before,
+.icon-Instagram:before,
+.icon-Installation:before,
+.icon-Internet:before,
+.icon-Kiosk:before,
+.icon-Landline:before,
+.icon-Language_AR_Icon:before,
+.icon-Language_EN_Icon:before,
+.icon-Laptop:before,
+.icon-Left:before,
+.icon-Like:before,
+.icon-LinkedIn:before,
+.icon-Listview:before,
+.icon-Live-chat:before,
+.icon-Lock:before,
+.icon-Messages:before,
+.icon-Messages-Empty:before,
+.icon-Messages-New:before,
+.icon-Messages-Promotion:before,
+.icon-Minus-no-circle:before,
+.icon-Mobile-freebie:before,
+.icon-Multiple-Credit-Card:before,
+.icon-Music:before,
+.icon-Neutral:before,
+.icon-Notifications:before,
+.icon-Number-Selector:before,
+.icon-Order:before,
+.icon-Overlay:before,
+.icon-Password-hide:before,
+.icon-Password-show:before,
+.icon-Personalise:before,
+.icon-Phone:before,
+.icon-Phone-Android:before,
+.icon-Phone-Apple:before,
+.icon-Placeholder:before,
+.icon-Plane:before,
+.icon-Prepaid-balance:before,
+.icon-Present:before,
+.icon-Processor:before,
+.icon-Profile_Icon:before,
+.icon-Qitaf:before,
+.icon-Quick-Pay:before,
+.icon-Ram:before,
+.icon-Ramadan:before,
+.icon-Recharge:before,
+.icon-Refresh:before,
+.icon-Request_money:before,
+.icon-Restaurants:before,
+.icon-Right:before,
+.icon-Robot:before,
+.icon-Rotate:before,
+.icon-Rotate-phone:before,
+.icon-Router:before,
+.icon-Sad:before,
+.icon-Scale:before,
+.icon-Scan:before,
+.icon-Search:before,
+.icon-Security:before,
+.icon-Service:before,
+.icon-Services:before,
+.icon-Settings-circle:before,
+.icon-Shopping-bag:before,
+.icon-Shopping-empty:before,
+.icon-Shopping-item:before,
+.icon-Signal:before,
+.icon-Simcard:before,
+.icon-Simcard-add:before,
+.icon-Simcard-remove:before,
+.icon-Simcard-transfer:before,
+.icon-Slide-to-activate:before,
+.icon-Sms:before,
+.icon-Snapchat:before,
+.icon-Social-Network:before,
+.icon-Sort:before,
+.icon-Special-number:before,
+.icon-Sport:before,
+.icon-Star:before,
+.icon-Star-Filled:before,
+.icon-Store:before,
+.icon-Store-Marker:before,
+.icon-Sweet:before,
+.icon-TV:before,
+.icon-TV-sport:before,
+.icon-Tablets-Android:before,
+.icon-Tablets-Apple:before,
+.icon-Tick:before,
+.icon-Ticket:before,
+.icon-Ticket-Star:before,
+.icon-Top:before,
+.icon-Transfer:before,
+.icon-Trash:before,
+.icon-Twitter:before,
+.icon-Upload:before,
+.icon-User:before,
+.icon-Very_Sad:before,
+.icon-Very_happy:before,
+.icon-Vouchers:before,
+.icon-Wearables:before,
+.icon-Web:before,
+.icon-Wifi:before,
+.icon-Youtube:before,
+.icon-Zoom-in:before,
+.icon-Zoom-out:before,
+.icon-arrow-left-filled:before,
+.icon-arrow-right-filled:before,
+.icon-auction:before,
+.icon-bank:before,
+.icon-calls_miss:before,
+.icon-circle-o-notch:before,
+.icon-crown:before,
+.icon-custom_products:before,
+.icon-devices:before,
+.icon-dot-circle:before,
+.icon-empty-case:before,
+.icon-eye:before,
+.icon-eye_hide:before,
+.icon-feedback_average_selected:before,
+.icon-feedback_average_unselected:before,
+.icon-feedback_awesome_selected:before,
+.icon-feedback_awesome_unselected:before,
+.icon-feedback_awful_selected:before,
+.icon-feedback_awful_unselected:before,
+.icon-feedback_good_selected:before,
+.icon-feedback_good_unselected:before,
+.icon-feedback_icon_success:before,
+.icon-feedback_poor_selected:before,
+.icon-feedback_poor_unselected:before,
+.icon-headphones:before,
+.icon-location_active:before,
+.icon-location_normal:before,
+.icon-location_passive:before,
+.icon-logout:before,
+.icon-minus:before,
+.icon-plus-circle:before,
+.icon-qitaf-selected:before,
+.icon-question:before,
+.icon-question-help:before,
+.icon-question-mark:before,
+.icon-quick_speed:before,
+.icon-send_money:before,
+.icon-settings:before,
+.icon-shopping-bag:before,
+.icon-shopping-bag-selected:before,
+.icon-shuffle:before,
+.icon-sign_in:before,
+.icon-sim_card:before,
+.icon-sports:before,
+.icon-stc:before,
+.icon-tablets:before,
+.icon-time:before,
+.icon-travel-protect:before,
+.icon-up:before,
+.icon-user-active:before,
+.icon-video:before,
+.icon-vip-icon:before,
+.icon-whats-app:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-Accessories:before {
+  content: "\f100";
+}
+.icon-Account:before {
+  content: "\f101";
+}
+.icon-Add:before {
+  content: "\f102";
+}
+.icon-Add-Money:before {
+  content: "\f103";
+}
+.icon-Addon:before {
+  content: "\f104";
+}
+.icon-Alert:before {
+  content: "\f105";
+}
+.icon-Arrow-curser:before {
+  content: "\f106";
+}
+.icon-Arrow_down:before {
+  content: "\f107";
+}
+.icon-Arrow_left:before {
+  content: "\f108";
+}
+.icon-Arrow_right:before {
+  content: "\f109";
+}
+.icon-Arrow_up:before {
+  content: "\f10a";
+}
+.icon-Attatchment:before {
+  content: "\f10b";
+}
+.icon-Barcode:before {
+  content: "\f10c";
+}
+.icon-Bars:before {
+  content: "\f10d";
+}
+.icon-Battery:before {
+  content: "\f10e";
+}
+.icon-Bell:before {
+  content: "\f10f";
+}
+.icon-Bell-Not-Empty:before {
+  content: "\f110";
+}
+.icon-Business:before {
+  content: "\f111";
+}
+.icon-Cab:before {
+  content: "\f112";
+}
+.icon-Calendar:before {
+  content: "\f113";
+}
+.icon-Calls:before {
+  content: "\f114";
+}
+.icon-Calls-in:before {
+  content: "\f115";
+}
+.icon-Calls-out:before {
+  content: "\f116";
+}
+.icon-Camera:before {
+  content: "\f117";
+}
+.icon-Camera-zoom:before {
+  content: "\f118";
+}
+.icon-Cancel:before {
+  content: "\f119";
+}
+.icon-Cancel----circle:before {
+  content: "\f11a";
+}
+.icon-Cart:before {
+  content: "\f11b";
+}
+.icon-Cash:before {
+  content: "\f11c";
+}
+.icon-Chat:before {
+  content: "\f11d";
+}
+.icon-Check:before {
+  content: "\f11e";
+}
+.icon-Clock:before {
+  content: "\f11f";
+}
+.icon-Coffee:before {
+  content: "\f120";
+}
+.icon-Credit-Card:before {
+  content: "\f121";
+}
+.icon-Credit-Card-Add:before {
+  content: "\f122";
+}
+.icon-Credit-Card-no-balance:before {
+  content: "\f123";
+}
+.icon-Delivery-van:before {
+  content: "\f124";
+}
+.icon-Device-Protect:before {
+  content: "\f125";
+}
+.icon-Disabled:before {
+  content: "\f126";
+}
+.icon-Discount:before {
+  content: "\f127";
+}
+.icon-Discover_Connected_Life:before {
+  content: "\f128";
+}
+.icon-Discover_Devices:before {
+  content: "\f129";
+}
+.icon-Discover_Digital_Gift_Cards:before {
+  content: "\f12a";
+}
+.icon-Discover_Entertainment:before {
+  content: "\f12b";
+}
+.icon-Discover_Gametheon:before {
+  content: "\f12c";
+}
+.icon-Discover_Lock:before {
+  content: "\f12d";
+}
+.icon-Discover_Mobile_Payment:before {
+  content: "\f12e";
+}
+.icon-Discover_Promotions:before {
+  content: "\f12f";
+}
+.icon-Discover_Protect:before {
+  content: "\f130";
+}
+.icon-Discover_Roaming:before {
+  content: "\f131";
+}
+.icon-Discover_SCB:before {
+  content: "\f132";
+}
+.icon-Discover_Services:before {
+  content: "\f133";
+}
+.icon-Discover_TV_Icon:before {
+  content: "\f134";
+}
+.icon-Document:before {
+  content: "\f135";
+}
+.icon-Document-Paid:before {
+  content: "\f136";
+}
+.icon-Document-dot:before {
+  content: "\f137";
+}
+.icon-Donate:before {
+  content: "\f138";
+}
+.icon-Down:before {
+  content: "\f139";
+}
+.icon-Download:before {
+  content: "\f13a";
+}
+.icon-Download-speed:before {
+  content: "\f13b";
+}
+.icon-Edit:before {
+  content: "\f13c";
+}
+.icon-Edit-plan:before {
+  content: "\f13d";
+}
+.icon-Education:before {
+  content: "\f13e";
+}
+.icon-External-link:before {
+  content: "\f13f";
+}
+.icon-Extreme-Sports:before {
+  content: "\f140";
+}
+.icon-Facebook:before {
+  content: "\f141";
+}
+.icon-Family:before {
+  content: "\f142";
+}
+.icon-Fashion:before {
+  content: "\f143";
+}
+.icon-Favorite_Addons:before {
+  content: "\f144";
+}
+.icon-Filter:before {
+  content: "\f145";
+}
+.icon-Folder:before {
+  content: "\f146";
+}
+.icon-Friends:before {
+  content: "\f147";
+}
+.icon-Fullscreen:before {
+  content: "\f148";
+}
+.icon-Furniture:before {
+  content: "\f149";
+}
+.icon-Game:before {
+  content: "\f14a";
+}
+.icon-Gift_cards:before {
+  content: "\f14b";
+}
+.icon-Globe:before {
+  content: "\f14c";
+}
+.icon-Guest:before {
+  content: "\f14d";
+}
+.icon-Hamburger:before {
+  content: "\f14e";
+}
+.icon-Happy:before {
+  content: "\f1f2";
+}
+.icon-Health:before {
+  content: "\f14f";
+}
+.icon-Heart:before {
+  content: "\f150";
+}
+.icon-Heart_filled:before {
+  content: "\f151";
+}
+.icon-Help:before {
+  content: "\f152";
+}
+.icon-History:before {
+  content: "\f153";
+}
+.icon-Home:before {
+  content: "\f154";
+}
+.icon-Home-selected:before {
+  content: "\f155";
+}
+.icon-Home-wifi:before {
+  content: "\f156";
+}
+.icon-ID:before {
+  content: "\f157";
+}
+.icon-Inbox:before {
+  content: "\f158";
+}
+.icon-Infinite_Unlimited_Icon:before {
+  content: "\f159";
+}
+.icon-Information:before {
+  content: "\f15a";
+}
+.icon-Instagram:before {
+  content: "\f15b";
+}
+.icon-Installation:before {
+  content: "\f15c";
+}
+.icon-Internet:before {
+  content: "\f15d";
+}
+.icon-Kiosk:before {
+  content: "\f15e";
+}
+.icon-Landline:before {
+  content: "\f15f";
+}
+.icon-Language_AR_Icon:before {
+  content: "\f160";
+}
+.icon-Language_EN_Icon:before {
+  content: "\f161";
+}
+.icon-Laptop:before {
+  content: "\f162";
+}
+.icon-Left:before {
+  content: "\f163";
+}
+.icon-Like:before {
+  content: "\f164";
+}
+.icon-LinkedIn:before {
+  content: "\f165";
+}
+.icon-Listview:before {
+  content: "\f166";
+}
+.icon-Live-chat:before {
+  content: "\f167";
+}
+.icon-Lock:before {
+  content: "\f168";
+}
+.icon-Messages:before {
+  content: "\f169";
+}
+.icon-Messages-Empty:before {
+  content: "\f16a";
+}
+.icon-Messages-New:before {
+  content: "\f16b";
+}
+.icon-Messages-Promotion:before {
+  content: "\f16c";
+}
+.icon-Minus-no-circle:before {
+  content: "\f16d";
+}
+.icon-Mobile-freebie:before {
+  content: "\f16e";
+}
+.icon-Multiple-Credit-Card:before {
+  content: "\f16f";
+}
+.icon-Music:before {
+  content: "\f170";
+}
+.icon-Neutral:before {
+  content: "\f1f3";
+}
+.icon-Notifications:before {
+  content: "\f171";
+}
+.icon-Number-Selector:before {
+  content: "\f172";
+}
+.icon-Order:before {
+  content: "\f173";
+}
+.icon-Overlay:before {
+  content: "\f174";
+}
+.icon-Password-hide:before {
+  content: "\f175";
+}
+.icon-Password-show:before {
+  content: "\f176";
+}
+.icon-Personalise:before {
+  content: "\f177";
+}
+.icon-Phone:before {
+  content: "\f178";
+}
+.icon-Phone-Android:before {
+  content: "\f179";
+}
+.icon-Phone-Apple:before {
+  content: "\f17a";
+}
+.icon-Placeholder:before {
+  content: "\f17b";
+}
+.icon-Plane:before {
+  content: "\f17c";
+}
+.icon-Prepaid-balance:before {
+  content: "\f17d";
+}
+.icon-Present:before {
+  content: "\f17e";
+}
+.icon-Processor:before {
+  content: "\f17f";
+}
+.icon-Profile_Icon:before {
+  content: "\f180";
+}
+.icon-Qitaf:before {
+  content: "\f181";
+}
+.icon-Quick-Pay:before {
+  content: "\f182";
+}
+.icon-Ram:before {
+  content: "\f183";
+}
+.icon-Ramadan:before {
+  content: "\f184";
+}
+.icon-Recharge:before {
+  content: "\f185";
+}
+.icon-Refresh:before {
+  content: "\f186";
+}
+.icon-Request_money:before {
+  content: "\f187";
+}
+.icon-Restaurants:before {
+  content: "\f188";
+}
+.icon-Right:before {
+  content: "\f189";
+}
+.icon-Robot:before {
+  content: "\f18a";
+}
+.icon-Rotate:before {
+  content: "\f18b";
+}
+.icon-Rotate-phone:before {
+  content: "\f18c";
+}
+.icon-Router:before {
+  content: "\f18d";
+}
+.icon-Sad:before {
+  content: "\f1f4";
+}
+.icon-Scale:before {
+  content: "\f18e";
+}
+.icon-Scan:before {
+  content: "\f18f";
+}
+.icon-Search:before {
+  content: "\f190";
+}
+.icon-Security:before {
+  content: "\f191";
+}
+.icon-Service:before {
+  content: "\f192";
+}
+.icon-Services:before {
+  content: "\f193";
+}
+.icon-Settings-circle:before {
+  content: "\f194";
+}
+.icon-Shopping-bag:before {
+  content: "\f195";
+}
+.icon-Shopping-empty:before {
+  content: "\f196";
+}
+.icon-Shopping-item:before {
+  content: "\f197";
+}
+.icon-Signal:before {
+  content: "\f198";
+}
+.icon-Simcard:before {
+  content: "\f199";
+}
+.icon-Simcard-add:before {
+  content: "\f19a";
+}
+.icon-Simcard-remove:before {
+  content: "\f19b";
+}
+.icon-Simcard-transfer:before {
+  content: "\f19c";
+}
+.icon-Slide-to-activate:before {
+  content: "\f19d";
+}
+.icon-Sms:before {
+  content: "\f19e";
+}
+.icon-Snapchat:before {
+  content: "\f19f";
+}
+.icon-Social-Network:before {
+  content: "\f1a0";
+}
+.icon-Sort:before {
+  content: "\f1a1";
+}
+.icon-Special-number:before {
+  content: "\f1a2";
+}
+.icon-Sport:before {
+  content: "\f1a3";
+}
+.icon-Star:before {
+  content: "\f1a4";
+}
+.icon-Star-Filled:before {
+  content: "\f1a5";
+}
+.icon-Store:before {
+  content: "\f1a6";
+}
+.icon-Store-Marker:before {
+  content: "\f1a7";
+}
+.icon-Sweet:before {
+  content: "\f1a8";
+}
+.icon-TV:before {
+  content: "\f1a9";
+}
+.icon-TV-sport:before {
+  content: "\f1aa";
+}
+.icon-Tablets-Android:before {
+  content: "\f1ab";
+}
+.icon-Tablets-Apple:before {
+  content: "\f1ac";
+}
+.icon-Tick:before {
+  content: "\f1ad";
+}
+.icon-Ticket:before {
+  content: "\f1ae";
+}
+.icon-Ticket-Star:before {
+  content: "\f1af";
+}
+.icon-Top:before {
+  content: "\f1b0";
+}
+.icon-Transfer:before {
+  content: "\f1b1";
+}
+.icon-Trash:before {
+  content: "\f1b2";
+}
+.icon-Twitter:before {
+  content: "\f1b3";
+}
+.icon-Upload:before {
+  content: "\f1b4";
+}
+.icon-User:before {
+  content: "\f1b5";
+}
+.icon-Very_Sad:before {
+  content: "\f1f5";
+}
+.icon-Very_happy:before {
+  content: "\f1f6";
+}
+.icon-Vouchers:before {
+  content: "\f1b6";
+}
+.icon-Wearables:before {
+  content: "\f1b7";
+}
+.icon-Web:before {
+  content: "\f1b8";
+}
+.icon-Wifi:before {
+  content: "\f1b9";
+}
+.icon-Youtube:before {
+  content: "\f1ba";
+}
+.icon-Zoom-in:before {
+  content: "\f1bb";
+}
+.icon-Zoom-out:before {
+  content: "\f1bc";
+}
+.icon-arrow-left-filled:before {
+  content: "\f1bd";
+}
+.icon-arrow-right-filled:before {
+  content: "\f1be";
+}
+.icon-auction:before {
+  content: "\f1bf";
+}
+.icon-bank:before {
+  content: "\f1c0";
+}
+.icon-calls_miss:before {
+  content: "\f1c1";
+}
+.icon-circle-o-notch:before {
+  content: "\f1c2";
+}
+.icon-crown:before {
+  content: "\f1c3";
+}
+.icon-custom_products:before {
+  content: "\f1c4";
+}
+.icon-devices:before {
+  content: "\f1c5";
+}
+.icon-dot-circle:before {
+  content: "\f1c6";
+}
+.icon-empty-case:before {
+  content: "\f1c7";
+}
+.icon-eye:before {
+  content: "\f1c8";
+}
+.icon-eye_hide:before {
+  content: "\f1c9";
+}
+.icon-feedback_average_selected:before {
+  content: "\f1ca";
+}
+.icon-feedback_average_unselected:before {
+  content: "\f1cb";
+}
+.icon-feedback_awesome_selected:before {
+  content: "\f1cc";
+}
+.icon-feedback_awesome_unselected:before {
+  content: "\f1cd";
+}
+.icon-feedback_awful_selected:before {
+  content: "\f1ce";
+}
+.icon-feedback_awful_unselected:before {
+  content: "\f1cf";
+}
+.icon-feedback_good_selected:before {
+  content: "\f1d0";
+}
+.icon-feedback_good_unselected:before {
+  content: "\f1d1";
+}
+.icon-feedback_icon_success:before {
+  content: "\f1d2";
+}
+.icon-feedback_poor_selected:before {
+  content: "\f1d3";
+}
+.icon-feedback_poor_unselected:before {
+  content: "\f1d4";
+}
+.icon-headphones:before {
+  content: "\f1d5";
+}
+.icon-location_active:before {
+  content: "\f1d6";
+}
+.icon-location_normal:before {
+  content: "\f1d7";
+}
+.icon-location_passive:before {
+  content: "\f1d8";
+}
+.icon-logout:before {
+  content: "\f1d9";
+}
+.icon-minus:before {
+  content: "\f1da";
+}
+.icon-plus-circle:before {
+  content: "\f1db";
+}
+.icon-qitaf-selected:before {
+  content: "\f1dc";
+}
+.icon-question:before {
+  content: "\f1dd";
+}
+.icon-question-help:before {
+  content: "\f1de";
+}
+.icon-question-mark:before {
+  content: "\f1df";
+}
+.icon-quick_speed:before {
+  content: "\f1e0";
+}
+.icon-send_money:before {
+  content: "\f1e1";
+}
+.icon-settings:before {
+  content: "\f1e2";
+}
+.icon-shopping-bag:before {
+  content: "\f1e3";
+}
+.icon-shopping-bag-selected:before {
+  content: "\f1e4";
+}
+.icon-shuffle:before {
+  content: "\f1e5";
+}
+.icon-sign_in:before {
+  content: "\f1e6";
+}
+.icon-sim_card:before {
+  content: "\f1e7";
+}
+.icon-sports:before {
+  content: "\f1e8";
+}
+.icon-stc:before {
+  content: "\f1e9";
+}
+.icon-tablets:before {
+  content: "\f1ea";
+}
+.icon-time:before {
+  content: "\f1eb";
+}
+.icon-travel-protect:before {
+  content: "\f1ec";
+}
+.icon-up:before {
+  content: "\f1ed";
+}
+.icon-user-active:before {
+  content: "\f1ee";
+}
+.icon-video:before {
+  content: "\f1ef";
+}
+.icon-vip-icon:before {
+  content: "\f1f0";
+}
+.icon-whats-app:before {
+  content: "\f1f1";
+}
