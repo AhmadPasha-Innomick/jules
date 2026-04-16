@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { TextField, Switch, FormLabel } from "@mui/material";
 import Button from "@/components/ui/button/Button";
 import * as Yup from "yup";
-import { useSearchParams } from "next/navigation";
 
 
 const editValidationSchema = Yup.object().shape({

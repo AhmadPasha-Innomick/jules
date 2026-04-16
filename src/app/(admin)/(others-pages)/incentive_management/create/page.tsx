@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Alert, Snackbar } from "@mui/material";
 import { useRouter, useSearchParams } from "next/navigation";
 import PageBreadcrumbDynamic from "@/components/common/PageBreadCrumbDynamic";
@@ -12,7 +12,7 @@ import {
 } from "@/hooks/useIncentiveSchemes";
 import type { IncentiveSchemeDetail, IncentiveSchemePayload } from "@/types/incentive";
 
-const CreateIncentiveSchemePage = () => {
+const CreateIncentiveSchemePageContent = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const cloneFrom = searchParams.get("clone_from");
@@ -87,6 +87,20 @@ const CreateIncentiveSchemePage = () => {
         </Alert>
       </Snackbar>
     </>
+  );
+};
+
+const CreateIncentiveSchemePage = () => {
+  return (
+    <Suspense
+      fallback={
+        <Alert severity="info" sx={{ mb: 2 }}>
+          Loading page...
+        </Alert>
+      }
+    >
+      <CreateIncentiveSchemePageContent />
+    </Suspense>
   );
 };
 
